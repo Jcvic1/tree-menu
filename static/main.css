@@ -1,0 +1,36 @@
+.menu {
+    list-style: none;
+    font-size: 14px;
+}
+
+.menu-item {
+    margin-block: 5px;
+}
+
+.arrow-btn {
+    cursor: pointer;
+}
+
+.text-btn {
+    background-color: #4b4c4d;
+    border: none;
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 5px 5px;
+    cursor: pointer;
+}
+
+.submenu {
+    list-style: none;
+    display: none;
+}
+
+.submenu.expanded {
+    display: block;
+}
+
+
+.text-btn.active {
+    background-color: #0056b3;
+    font-weight: bold;
+}

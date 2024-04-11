@@ -1,0 +1,8 @@
+{% extends 'menu/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+{% load menu_tags %}
+
+  {% draw_menu 'menu1' %}
+  {% draw_menu 'menu2' %}
+{% endblock %}
