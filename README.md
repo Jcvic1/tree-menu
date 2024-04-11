@@ -9,10 +9,10 @@
 
 
 ## Documentation
-
+```
 * / -home page renders all menus
 * /<name>/ -render individual page for menu items
-
+```
 ## Database
 
 Using default sqlite database for developement
